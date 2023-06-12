@@ -45,3 +45,11 @@ onBeforeSetupMiddleware를 통해 /css/style.css 경로로의 GET 요청에 대�
   CSS 파일을 자체적으로 모듈로 처리하여 필요한 경우에만 파일로 추출하고, 그렇지 않은 경우에는 스타일 시트로 포함되도록 동작.<br>
   추출된 파일은 output.path에 설정된 경로에 저장된다. 그리고 CSS 파일의 URL 경로는 publicPath 옵션에 설정한 경로로 생성된다.<br>
   따라서 수정된 코드를 사용하면 CSS 파일이 번들링된 결과물로 추출되어 저장되며, HTML에서 해당 CSS 파일을 로드하여 적용할 수 있다.<br>
+<br>
+
+## 5. 실행
+### 개발 모드
+$ npm start
+
+### build
+$ npm run build
