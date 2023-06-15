@@ -7,17 +7,17 @@ $ npm init
 ## 2. npm 패키지 설치
 npm을 사용해 웹팩 등의 필요한 패키지들을 설치
 ### Webpack
-$ npm install -D webpack webpack-cli <br>
-$ npm install -D webpack-dev-server <br>
-$ npm install -D style-loader css-loader <br>
-$ npm install -D html-webpack-plugin <br>
-$ npm install -D clean-webpack-plugin <br>
+    $ npm install -D webpack webpack-cli <br>
+    $ npm install -D webpack-dev-server <br>
+    $ npm install -D style-loader css-loader <br>
+    $ npm install -D html-webpack-plugin <br>
+    $ npm install -D clean-webpack-plugin <br>
 
 ### Babel
-$ npm install -D @babel/core @babel/preset-env babel-loader
+    $ npm install -D @babel/core @babel/preset-env babel-loader
 
 ### Jest
-$ npm install -D jest babel-jest
+    $ npm install -D jest babel-jest
 
 ## 3. package.json
 <img width="396" alt="스크린샷 2023-06-12 오후 10 47 08" src="https://github.com/whtnqls124578/vanilla.js-defaultSetting/assets/100771469/732ff672-8c09-4bef-9b5f-2db9f41b5b8a">
@@ -49,7 +49,7 @@ onBeforeSetupMiddleware를 통해 /css/style.css 경로로의 GET 요청에 대�
 
 ## 5. 실행
 ### 개발 모드
-$ npm start
+    $ npm start
 
 ### build
-$ npm run build
+    $ npm run build
