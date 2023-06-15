@@ -7,11 +7,11 @@ $ npm init
 ## 2. npm 패키지 설치
 npm을 사용해 웹팩 등의 필요한 패키지들을 설치
 ### Webpack
-    $ npm install -D webpack webpack-cli <br>
-    $ npm install -D webpack-dev-server <br>
-    $ npm install -D style-loader css-loader <br>
-    $ npm install -D html-webpack-plugin <br>
-    $ npm install -D clean-webpack-plugin <br>
+    $ npm install -D webpack webpack-cli
+    $ npm install -D webpack-dev-server
+    $ npm install -D style-loader css-loader
+    $ npm install -D html-webpack-plugin
+    $ npm install -D clean-webpack-plugin
 
 ### Babel
     $ npm install -D @babel/core @babel/preset-env babel-loader
